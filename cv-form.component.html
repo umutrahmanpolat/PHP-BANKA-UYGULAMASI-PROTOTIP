@@ -1,0 +1,12 @@
+<form [formGroup]="cvForm" (ngSubmit)="onSubmitCV()">
+  <label>Fotoğraf: <input formControlName="fotograf"></label><br>
+  <label>Telefon: <input formControlName="telefon"></label><br>
+  <label>Cinsiyet: <input formControlName="cinsiyet"></label><br>
+  <label>Doğum Yeri: <input formControlName="dogum_yeri"></label><br>
+  <label>Medeni Durum: <input formControlName="medeni_durum"></label><br>
+  <label>Ehliyet: <input formControlName="ehliyet"></label><br>
+  <label>İkametgah Adresi: <input formControlName="ikametgah_adresi"></label><br>
+  <label>İl: <input formControlName="il"></label><br>
+  <label>İlçe: <input formControlName="ilce"></label><br>
+  <button type="submit">CV Kaydet</button>
+</form>

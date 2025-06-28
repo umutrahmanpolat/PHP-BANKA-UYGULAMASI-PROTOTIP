@@ -1,0 +1,9 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <label>Ad: <input formControlName="ad"></label><br>
+  <label>Soyad: <input formControlName="soyad"></label><br>
+  <label>Şifre: <input type="password" formControlName="sifre"></label><br>
+  <label>E-Posta: <input formControlName="eposta"></label><br>
+  <label>TC Kimlik No: <input formControlName="tc_kimlik_no"></label><br>
+  <label>Doğum Tarihi: <input type="date" formControlName="dogum_tarihi"></label><br>
+  <button type="submit">Kayıt Ol</button>
+</form>
